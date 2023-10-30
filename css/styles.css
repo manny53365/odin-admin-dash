@@ -48,6 +48,10 @@ h2 {
     height: 100vh;
 }
 
+.main-content-containers {
+    background-color: rgb(148, 144, 144);
+}
+
 .main-right-container {
     width: 20%;
 }
