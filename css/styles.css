@@ -75,19 +75,6 @@ img {
     margin-right: 10px;
 }
 
-.main-content {
-    width: 80%;
-    height: 100vh;
-}
-
-.main-content-containers {
-    background-color: rgb(148, 144, 144);
-}
-
-.main-right-container {
-    width: 20%;
-}
-
 .top-header {
     display: flex;
     flex-direction: column;
@@ -166,4 +153,24 @@ img {
     font-size: 1.2rem;
     height: 35px;
     width: 100px;
+}
+
+.main-content {
+    width: 80%;
+    height: 100vh;
+}
+
+.main-content-containers {
+    background-color: rgb(148, 144, 144);
+    display: flex;
+    width: 100%;
+}
+
+.main-left-container {
+    display: grid;
+    width: 80%;
+}
+
+.main-right-container {
+    width: 20%;
 }
