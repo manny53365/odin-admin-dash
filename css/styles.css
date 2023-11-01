@@ -167,10 +167,22 @@ img {
 }
 
 .main-left-container {
-    display: grid;
     width: 80%;
 }
 
 .main-right-container {
     width: 20%;
 }
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.project-tile {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+  
