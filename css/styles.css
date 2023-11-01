@@ -141,3 +141,29 @@ img {
     justify-content: space-evenly;
     margin-bottom: 20px;
 }
+
+.bottom-row-left {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.greeting-container {
+    margin-left: 15px;
+}
+
+.bottom-row-right {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bottom-row-right button {
+    background-color: dodgerblue;
+    font-size: 1.2rem;
+    height: 35px;
+    width: 100px;
+}
