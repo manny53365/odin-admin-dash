@@ -21,6 +21,10 @@ ul li:hover {
 
 button {
     width: 75px;
+    border-radius: 25px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
 }
 
 img {
@@ -98,7 +102,6 @@ img {
     width: 100%;
     margin-bottom: 20px;
     height: 30px;
-    font-size: 1.25rem;
 }
 
 .top-row-left {
@@ -128,6 +131,7 @@ img {
 
 .user-name {
     font-weight: bold;
+    font-size: 1.25rem;
 }
 
 .bottom-row {
