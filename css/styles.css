@@ -175,6 +175,7 @@ img {
 }
 
 .project-grid {
+    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -184,5 +185,9 @@ img {
     border: 1px solid #ddd;
     padding: 10px;
     text-align: center;
+    background-color: white;
+    border-radius: 25px;
+    height: 100px;
+    margin: 20px;
 }
-  
+
