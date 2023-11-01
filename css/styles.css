@@ -2,3 +2,56 @@
     margin: 0;
     padding: 0;
 }
+
+h2 {
+    margin-left: 10px;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 20%;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+
+.img-logo {
+    height: 35px;
+    width: 35px;
+}
+
+.middle-nav {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* Combine with middle nav if possible  */
+
+.bottom-nav {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.main-content {
+    width: 80%;
+    height: 100vh;
+}
+
+.main-content-containers {
+    background-color: rgb(148, 144, 144);
+}
+
+.main-right-container {
+    width: 20%;
+}
