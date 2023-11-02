@@ -33,6 +33,10 @@ img {
     border-radius: 25px;
 }
 
+hr {
+    margin: 0 5px;
+}
+
 .container {
     display: flex;
 }
@@ -194,5 +198,27 @@ img {
 
 .main-right-container {
     width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
 }
 
+.announcements {
+    display: flex;
+    flex-direction: inherit;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.announce-entry {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    margin: 5px;
+}
+
+.trend-item {
+    font-size: 14px;
+}
