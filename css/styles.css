@@ -178,16 +178,18 @@ img {
     margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
 }
 
 .project-tile {
-    border: 1px solid #ddd;
+    border-left: 5px solid rgb(255, 162, 0);
     padding: 10px;
     text-align: center;
     background-color: white;
-    border-radius: 25px;
+    border-radius: 5px;
     height: 100px;
     margin: 20px;
 }
 
+.buttons {
+    margin-top: 25px;
+}
