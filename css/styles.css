@@ -170,10 +170,6 @@ img {
     width: 80%;
 }
 
-.main-right-container {
-    width: 20%;
-}
-
 .project-grid {
     margin-top: 20px;
     display: grid;
@@ -194,5 +190,9 @@ img {
     margin-top: 10px;
     display: flex;
     justify-content: flex-end;
+}
+
+.main-right-container {
+    width: 20%;
 }
 
